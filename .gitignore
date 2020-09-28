@@ -19,3 +19,9 @@
 ## Includes all .scss files in /sass directory ##
 #################################################
 sass/
+
+# Ignoring NPM files
+#################################################
+## Includes all  files in /node_modules directory ##
+#################################################
+node_modules/
