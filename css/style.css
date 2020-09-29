@@ -4569,6 +4569,34 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
+body > * {
+  display: block; }
+
+form {
+  display: flex;
+  flex-direction: row; }
+  @media screen and (max-width: 800px) {
+    form {
+      flex-direction: column; } }
+  form span {
+    display: none; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none; }
+
+#logo {
+  height: 40px;
+  width: auto; }
+
+#illustration {
+  height: 230px;
+  width: auto; }
+
+ul li {
+  font-size: 23px; }
+
 html, body {
   height: 100%;
   width: 100%; }

@@ -1,0 +1,16 @@
+body > * {
+  display: block; }
+
+form {
+  display: flex;
+  flex-direction: row; }
+  @media screen and (max-width: 800px) {
+    form {
+      flex-direction: column; } }
+  form span {
+    display: none; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none; }
