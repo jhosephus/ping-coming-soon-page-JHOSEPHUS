@@ -1,3 +1,5 @@
+/* Size */
+/* Fonts */
 body > * {
   margin: 0 auto;
   padding: 0;
@@ -5,13 +7,29 @@ body > * {
   justify-content: center;
   align-items: center; }
 
-@media screen and (min-width: 600px) {
-  body form span {
-    white-space: nowrap;
-    height: fit-content;
-    width: fit-content;
-    position: relative;
-    right: 270px;
-    top: 30px; }
-  body form div {
-    width: 0; } }
+body #logo {
+  margin-bottom: 20px; }
+
+body > div {
+  margin-bottom: 0.5em; }
+
+body form {
+  margin-top: 30px; }
+  @media screen and (min-width: 600px) {
+    body form {
+      margin-bottom: 35px; }
+      body form span {
+        white-space: nowrap;
+        height: fit-content;
+        width: fit-content;
+        position: relative;
+        right: 270px;
+        top: 30px; }
+      body form div {
+        width: 0; } }
+
+body #illustration {
+  margin-bottom: 35px; }
+
+body ul {
+  margin-bottom: 25px; }

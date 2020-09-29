@@ -1,9 +1,15 @@
+/* Size */
+/* Fonts */
 #logo {
   height: 20px;
   width: auto; }
 
-form input, form button {
+form input {
   width: 270px;
+  height: 24px; }
+
+form button {
+  width: 189px;
   height: 30px; }
 
 #illustration {
