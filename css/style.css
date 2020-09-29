@@ -4587,8 +4587,12 @@ ul {
   list-style-type: none; }
 
 #logo {
-  height: 40px;
+  height: 20px;
   width: auto; }
+
+form input, form button {
+  width: 270px;
+  height: 30px; }
 
 #illustration {
   height: 230px;
@@ -4596,6 +4600,24 @@ ul {
 
 ul li {
   font-size: 23px; }
+
+body > * {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media screen and (min-width: 600px) {
+  body form span {
+    white-space: nowrap;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    right: 270px;
+    top: 30px; }
+  body form div {
+    width: 0; } }
 
 html, body {
   height: 100%;

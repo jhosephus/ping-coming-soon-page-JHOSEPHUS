@@ -1,0 +1,17 @@
+body > * {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media screen and (min-width: 600px) {
+  body form span {
+    white-space: nowrap;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    right: 270px;
+    top: 30px; }
+  body form div {
+    width: 0; } }
