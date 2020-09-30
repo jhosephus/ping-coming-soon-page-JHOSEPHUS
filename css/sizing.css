@@ -1,20 +1,33 @@
 /* Size */
 /* Fonts */
+/* Color */
 #logo {
   height: 20px;
   width: auto; }
 
 form input {
   width: 270px;
-  height: 24px; }
+  height: 35px;
+  box-sizing: border-box;
+  padding: 3px 1.4em; }
 
 form button {
-  width: 189px;
-  height: 30px; }
+  width: 148.5px;
+  height: 35px; }
+  @media screen and (max-width: 800px) {
+    form button {
+      width: 270px; } }
 
 #illustration {
   height: 230px;
   width: auto; }
+  @media screen and (max-width: 800px) {
+    #illustration {
+      width: 80%;
+      height: auto; } }
 
-ul li {
+ul li div {
+  height: 36.8px;
+  width: 36.8px;
+  line-height: 23px;
   font-size: 23px; }

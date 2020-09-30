@@ -1,3 +1,18 @@
+/* Size */
+/* Fonts */
+/* Color */
 body {
-  font-size: 16px;
-  font-family: 'Libre Franklin', sans-serif; }
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif; }
+  body > div {
+    font-size: xx-large;
+    font-weight: 300; }
+  body > span {
+    font-size: 17px; }
+  body form input, body form button {
+    font-family: "Libre Franklin", sans-serif; }
+  body form > div {
+    font-size: x-small;
+    color: #ff5263; }
+  body footer {
+    font-size: xx-small; }

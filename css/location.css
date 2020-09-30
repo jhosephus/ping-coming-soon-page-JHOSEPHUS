@@ -1,35 +1,45 @@
 /* Size */
 /* Fonts */
-body > * {
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-body #logo {
-  margin-bottom: 20px; }
-
-body > div {
-  margin-bottom: 0.5em; }
-
-body form {
-  margin-top: 30px; }
-  @media screen and (min-width: 600px) {
-    body form {
-      margin-bottom: 35px; }
-      body form span {
-        white-space: nowrap;
-        height: fit-content;
-        width: fit-content;
-        position: relative;
-        right: 270px;
-        top: 30px; }
-      body form div {
-        width: 0; } }
-
-body #illustration {
-  margin-bottom: 35px; }
-
-body ul {
-  margin-bottom: 25px; }
+/* Color */
+body {
+  margin: 0; }
+  body > * {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  body #logo {
+    margin-bottom: 20px;
+    margin-top: 15px; }
+  body > div {
+    margin-bottom: 0.3em; }
+  body form {
+    margin-top: 30px; }
+    @media screen and (min-width: 600px) {
+      body form {
+        margin-bottom: 35px; }
+        body form span {
+          white-space: nowrap;
+          height: fit-content;
+          width: fit-content;
+          position: relative;
+          right: 202.5px;
+          top: 28px; }
+        body form div {
+          width: 10px; } }
+    @media screen and (max-width: 800px) {
+      body form {
+        margin-bottom: 35px; }
+        body form span {
+          white-space: nowrap;
+          height: fit-content;
+          width: fit-content; }
+        body form button {
+          margin: 10px 0; } }
+  body #illustration {
+    margin-bottom: 35px; }
+  body ul {
+    margin-bottom: 25px; }
+    body ul #twitter-icon {
+      margin: 0 23px; }
